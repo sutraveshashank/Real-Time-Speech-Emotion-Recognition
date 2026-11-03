@@ -1,0 +1,26 @@
+# Python bytecode & cache
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.cpython-*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Temporary audio test files
+temp_recorded.wav
+recorded_voice.wav
+*/recorded_voice.wav
+*/temp_recorded.wav
+
+# OS generated files
+.DS_Store
+Thumbs.db
+

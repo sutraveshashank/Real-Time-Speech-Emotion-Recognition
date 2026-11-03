@@ -1,0 +1,17 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Text files normalized to LF in repo
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.bat text eol=crlf
+
+# Binary files that must remain untouched
+*.wav binary
+*.pt binary
+*.png binary
+*.jpg binary
+
